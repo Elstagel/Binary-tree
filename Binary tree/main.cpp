@@ -64,6 +64,7 @@ public:
 	}
 	~Tree()
 	{
+		clear();
 		//cout << "TDestructor\t" << this << endl;
 
 	}
