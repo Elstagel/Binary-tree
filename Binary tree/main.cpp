@@ -133,7 +133,6 @@ public:
 		clear(Root);
 		Root = nullptr;
 	}
-
 	int minValue(Element* Root)const
 	{
 		if (Root == nullptr) return 0;
@@ -173,6 +172,7 @@ public:
 	{
 		return (double)sum(Root) / size(Root);
 	}
+
 
 	void print_tree(const string& prefix, const Element* Root, bool isLeft)
 	{
